@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    width: 180px;
+}
+
+.menu li i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background: #dcdcdc;
+}
